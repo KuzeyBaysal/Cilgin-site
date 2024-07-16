@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <title>YAPAY ZEKA</title>
+</head>
+<body>
+    <h1>YAPAY ZEKA İLE BİTKİ BULMA</h1>
+    <h3>Dosya yükleme</h3>
+    <form action="/yapayzeka" method="post" enctype="multipart/form-data">
+         <input type="file" name="abc" />
+        <input type="submit" value="Yükle" />
+    </form>
+    {% if ab %}
+    <p> Bu bir {{ ab }} </p>
+    <p> Bundan {{ cd }} ihtimalle eminim  </p>
+    {% endif %} 
+</body>
+</html>

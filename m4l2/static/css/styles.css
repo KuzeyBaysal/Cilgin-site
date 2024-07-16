@@ -1,0 +1,81 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cef8fd; /* Açık mavi arka plan rengi */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Başlık Ayarları */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+header h1 {
+    color: #01579b; /* Koyu mavi renk */
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Konteyner Ayarları */
+.container {
+    background: #ffffff; /* Beyaz arka plan rengi */
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Hafif gölge */
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 5rem auto 0;
+}
+
+/* Form Ayarları */
+form {
+    margin-top: 1rem;
+}
+
+h3 {
+    color: #00456d; /* Biraz daha açık mavi */
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}   
+
+input[type="file"] {
+    color: #000000;
+    display: block; 
+    margin: 1rem auto;
+    font-size: 1rem;
+    padding: 1rem;  
+}
+
+input[type="submit"] {
+    background: #00466b; /* Orta mavi renk */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background: #0277bd; /* Hover için biraz daha koyu mavi */
+}
+
+/* Paragraf Ayarları */
+p {
+    color: #01579b; /* Koyu mavi renk */
+    font-size: 1rem;
+    margin-top: 1rem;
+}
